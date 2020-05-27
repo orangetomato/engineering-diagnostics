@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-style: normal;
+    src:
+        local('Proxima Nova Regular'),
+        local('Proxima-Nova-Regular'),
+        url('../assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-style: italic;
+    src:
+        local('Proxima Nova Regular Italic'),
+        local('Proxima-Nova-Regular-Italic'),
+        url('../assets/fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-RegularIt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-style: normal;
+    src: 
+        local('Proxima Nova Semibold'), 
+        local('Proxima-Nova-Semibold'),
+        url('../assets/fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-Semibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    font-style: normal;
+    src: 
+        local('Proxima Nova Bold'), 
+        local('Proxima-Nova-Bold'),
+        url('../assets/fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 800;
+    font-style: normal;
+    src:
+        local('Proxima Nova Extrabold'),
+        local('Proxima-Nova-Extrabold'),
+        url('../assets/fonts/ProximaNova-Extrabld.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-Extrabld.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-style: normal;
+    src:
+        local('Gilroy Extrabold'), 
+        local('Gilroy-Extrabold'),
+        url('../assets/fonts/Gilroy-Extrabold.woff2') format('woff2'),
+        url('../assets/fonts/Gilroy-Extrabold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	font-style: normal;
+    src:
+        local('Bebas Neue Bold'), 
+        local('BebasNeueBold'),
+        url('../assets/fonts/BebasNeueBold.woff2') format('woff2'),
+		url('../assets/fonts/BebasNeueBold.woff') format('woff');
+}
