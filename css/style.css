@@ -184,8 +184,8 @@ a {
     background-repeat: no-repeat;
 
     display: inline-block;
-    width: 10px;
-    height: 7.5px;
+    width: 11px;
+    height: 8px;
     margin-right: 9.5px;
 }
 
@@ -207,7 +207,7 @@ a {
     background-repeat: no-repeat;
 
     display: inline-block;
-    width: 11px;
+    width: 12px;
     height: 11px;
     margin-right: 7px;
 }
@@ -282,7 +282,7 @@ a {
 .but__icon {
     display: inline-block;
     width: 12px;
-    height: 12px;
+    height: 13px;
     margin-right: 12px;
 
     background-image: url("../assets/images/hero/download.svg");
@@ -314,24 +314,24 @@ a {
 
 .features__count {
     background-repeat: no-repeat;
-    height: 47px;
+    height: 48px;
 }
 
 .features__count--first {
     background-image: url("../assets/images/hero/01.svg");
-    width: 49px;
+    width: 50px;
     margin-right: 31px;
 }
 
 .features__count--second {
     background-image: url("../assets/images/hero/02.svg");
-    width: 53px;
+    width: 54px;
     margin-right: 27px;
 }
 
 .features__count--third {
     background-image: url("../assets/images/hero/03.svg");
-    width: 53px;
+    width: 54px;
     margin-right: 27px;
 }
 
@@ -556,7 +556,6 @@ a {
     background-repeat: no-repeat;
     background-position: center;
 
-    display: inline-block;
     width: 30px;
     height: 30px;
     margin-right: 20px;
@@ -747,11 +746,12 @@ a {
 }
 
 .more__icon {
-    width: 21.41px;
-    height: 9.41px;
+    width: 22px;
+    height: 11px;
     background-image: url("../assets/images/services/arrow.svg");
     background-repeat: no-repeat;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .services__progress-bar {
@@ -807,11 +807,9 @@ a {
     background-color: #f3ec78;
     background-image: linear-gradient(#60B6FF 0%, rgba(0, 78, 134, 0.8) 100%);
     background-size: 100%;
-    background-clip: text;
+    background-clip: content-box;
     -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .steps__bottom-text {
